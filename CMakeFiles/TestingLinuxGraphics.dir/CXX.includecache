@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eric/Code/TestingLinuxGraphics/src/main.cpp
+iostream
+-
+GL/glew.h
+-
+GL/gl.h
+-
+SDL2/SDL.h
+-
+
